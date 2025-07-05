@@ -1,0 +1,580 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #ffffff;
+}
+.nav-logo {
+  width: 120px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.nav-img {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+
+.main-container
+{
+    background-color: #F5F7FA;
+    width: 100%;
+    height: 400px;
+}
+.main-container h2
+{
+ font-size: 40px;
+ color: #6a6969;
+ padding-top: 80px;
+ padding-left: 100px;
+}
+.main-container h3
+{
+font-size: 35px;
+color: rgb(67, 146, 67);
+padding-top: 5px;
+padding-left: 100px;
+}
+.main-container p {
+    font-size: small;
+    color: #6a6969;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+.main-container button
+{
+ height: 30px;
+ width: 85px;
+ background-color: rgb(67, 129, 67);
+ border: 0px;
+ border-radius: 2px;
+ color: white;
+ margin-left: 100px;
+ margin-top: 30px;
+}
+.main-container img
+{
+ padding-left: 800px;
+ margin-top:-200px;
+}
+/* 2nd navbar */
+.img-navbar
+{
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+.img-navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  justify-content:space-evenly;
+  margin-left: 150px;
+}
+
+.card-heading h2
+{
+text-align: center;
+color: #3f3f3f;
+margin-top:40px;
+}
+.card-heading h5
+{
+text-align: center;
+color: #9b9999;
+margin-top:40px;
+}
+.first-card
+{
+  background-color:rgb(249, 243, 243);
+  height: 250px;
+  width: 280px;
+  box-shadow: #eaeff7 10px;
+}
+.first-card img
+{
+ margin-left: 110px;
+ margin-top: 5px;
+}
+.first-card h2
+{
+text-align: center;
+margin-top: 5px;
+color: #585656;
+}
+.first-card p
+{
+text-align: center;
+margin-top: 10px;
+color: #9b9999;
+}
+
+.second-card
+{
+   background-color:rgb(249, 243, 243);
+  height: 250px;
+  width: 280px;
+}
+.second-card img
+{
+ margin-left: 110px;
+ margin-top: 5px;
+}
+.second-card h2
+{
+text-align: center;
+margin-top: 5px;
+color: #585656;
+}
+.second-card p
+{
+text-align: center;
+margin-top: 10px;
+color: #9b9999;
+}
+.third-card
+{
+  background-color:rgb(249, 243, 243);
+  height: 250px;
+  width: 280px;
+}
+.third-card img
+{
+ margin-left: 110px;
+ margin-top: 5px;
+}
+.third-card h2
+{
+text-align: center;
+margin-top: 5px;
+color: #585656;
+}
+.third-card p
+{
+text-align: center;
+margin-top: 10px;
+color: #9b9999;
+}
+.fourth-card{
+  
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  width: 500px;
+  
+}
+.fourth-card img{
+  margin-top: 45px;
+}
+.fourth-card h2
+{
+text-align: center;
+margin-top: 35px;
+color: #585656;
+margin-left: 30px;
+
+}
+.fourth-card p
+{
+text-align: justify;
+margin-top: 10px;
+color: #9b9999;
+}
+.fourth-card button{
+  height: 30px;
+  width: 85px;
+  background-color: rgb(91, 190, 91);
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.small-container
+{
+  height: 200px;
+  width: 100%;
+  background-color: rgba(245, 247, 250, 1);
+}
+.box-a h3
+{
+margin-left: 50px;
+margin-top: 0px;
+}
+.box-a h5
+{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #6a6969;
+}
+.box-b h3
+{
+margin-left: 50px;
+margin-top: -27px;
+}
+.box-b h5
+{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #6a6969;
+}
+.box-c h3
+{
+margin-left: 50px;
+margin-top: -27px;
+}
+.box-c h5
+{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #6a6969;
+}
+.box-d h3
+{
+margin-left: 50px;
+margin-top: -27px;
+}
+.box-d h5
+{
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #6a6969;
+}
+.small-container h2{
+  font-size: larger;
+  color: #585656;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+.small-container h3{
+   font-size: larger;
+  color: rgb(72, 205, 72);
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.small-container h4{
+   font-size:small;
+  color:rgb(171, 168, 168);
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.icon-container 
+{
+ margin-top: 40px;
+}
+.icon-container p 
+{
+  margin-left: 500px;
+  font-size: small;
+  margin-top:-265px;
+  color: #6a6969;
+}
+.icon-container h2
+{
+  font-size: large;
+  margin-left: -510px;
+   margin-top: -155px;
+   color: rgb(52, 179, 52);
+ }
+ .icon-container h6
+ {
+  font-size: smaller;
+  color: #aeadad;
+  margin-top: -130px;
+  font-weight: 20px;
+  margin-left:-80px;
+ }
+ .small-navbar
+{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+.small-navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content:space-evenly;
+  margin-left: 445px;
+  margin-top:-100px;
+}
+.shaddow-card
+{
+height: 100px;
+width: 210px;
+background-color:white;
+margin-left: 25px;
+margin-top: -30px;
+backdrop-filter: blur(10px);
+border-radius: 3px;
+text-align: center;
+
+}
+.foot
+{
+  height: 300px;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+.card-container
+{
+display: flex;
+}
+
+
+/* Endingstyle */
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 768px){
+    .nav{
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .nav-links {
+        float: right;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navcontainer li {
+       margin-top: -10px;
+
+    }
+
+    .nav-img {
+        margin-top: 20px;
+        float: right;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 120px;
+    }
+    .main-container h2{
+        float: none;
+        display: block;
+       margin-top:100px;
+    }
+    .main-container{
+      margin-top: 180px;
+      
+    }
+    .main-container h3 {
+        float: none;
+        display: block;
+    }
+   .main-container img {
+
+      float: none;
+      display: block;
+      margin-top: -400px;
+      flex-direction: column;
+      gap: 20px;
+      margin-left:-700px;
+      height: auto;
+      width: auto;
+      }
+      .h2{
+        margin-left:-200px;
+      }
+      .h5{
+        margin-left:30px;
+      }
+.img-navbar
+{
+  margin-top: 35px;
+  display: block;
+  justify-content: space-between;
+  margin-left: -70px;
+}
+.img-navbar ul{
+  list-style: none;
+  display: block;
+  gap: 100px;
+  justify-content:space-evenly;
+  margin-left: 150px;
+}
+.card-container
+{
+display: block;
+}
+.card-container>div 
+{
+  display: block;
+ 
+}
+.first-card{
+  display: block;
+  margin-left: 50px;
+  margin-top: 5px;
+ 
+ 
+}
+
+.second-card{
+  display: block;
+  margin-left: -330px;
+  margin-top: 220px;
+   background-color: silver;
+
+}
+.third-card{
+  display: block;
+  margin-left: -300px;
+  margin-top: 480px;
+   background-color: silver;
+}
+.fourth-card{
+  display: block;
+
+}
+.card-heading>div{
+  display: block;
+}
+.card-heading h2{
+  display: block;
+  margin-left:0px;
+  margin-top: 10px;
+}
+.card-heading h5{
+  display: block;
+   margin-left:-20px;
+  margin-top: 20px;
+}
+.frame-img{
+  display: block;
+}
+.frame-img>div{
+  display: block;
+  
+}
+.frame-img img {
+  display: block;
+  margin-left: 50px;
+  margin-top: -100px;
+}
+.fourth-card{
+  display: block;
+}
+.fourth-card h2{
+  display: block;
+  margin-top: 200px;
+  margin-left: -250px;
+
+}
+.fourth-card p{
+  display: block;
+  margin-top: 10px;
+  margin-left: -250px;
+}
+.fourth-card button{
+  display: block;
+  margin-top: 10px;
+  margin-left: -250px;
+}
+.small-container{
+  display: block;
+  margin-top: 280px;
+  margin-left: 40px;
+}
+.colab-box>div{
+  display: block;
+}
+ .box-a
+{
+  display: block;
+  margin-left: -800px;
+  margin-top: 190px;
+}
+.box-b
+{
+  display: block;
+  margin-left: -250px;
+  margin-top:200px;
+}
+.box-c{
+  display: block;
+  margin-left: -800px;
+  margin-top: 8px;
+}
+.box-d{
+  display: block;
+  margin-left: -250px;
+  margin-top: 10px;
+}
+.img-pana
+{
+  display: block;
+}
+.fourth-card,p,button {
+  display: block;
+  margin-top: 100px;
+}
+.fourth-card h2{
+margin-top: 320px;
+padding-left: -500px;
+}
+.icon-container{
+display: block;
+}
+.icon-content{
+display: block;
+}
+.icon-container p {
+    margin-left: 600px;
+    font-size: medium;
+    margin-top: -250px;
+  }
+
+  .icon-container h2 {
+    font-size: xx-large;
+    margin-left: -520px;
+    margin-top: -140px;
+  }
+
+  .icon-container h6 {
+    font-size: small;
+    margin-top: -120px;
+  }
+
+  .small-navbar ul {
+    margin-left: 500px;
+    margin-top: -90px;
+  }
+
+  .shaddow-card {
+    height: 120px;
+    width: 240px;
+  }
+
+  .foot {
+    height: 350px;
+  }
+}
